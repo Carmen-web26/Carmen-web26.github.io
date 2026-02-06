@@ -1,0 +1,241 @@
+HTML-Code einfügen<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boßel-Event Amrum</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /* Hero-Bereich */
+    .hero {
+        background: url('https://example.com/boßel-strand.jpg') no-repeat center center/cover;
+        color: white;
+        text-align: center;
+        padding: 120px 20px 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.8em;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    }
+
+    .hero p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    .cta-button {
+        background-color: #FF6B35;
+        color: white;
+        padding: 15px 35px;
+        font-size: 1.2em;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    .cta-button:hover {
+        background-color: #FF3F1F;
+    }
+
+    /* Container */
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 50px 20px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #0077B6;
+    }
+
+    /* Vorteile / Highlights */
+    .highlights {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .highlight {
+        flex: 1 1 250px;
+        background-color: #CAF0F8;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .highlight h3 {
+        margin-bottom: 10px;
+        color: #023E8A;
+    }
+
+    /* Ablauf / Timeline */
+    .timeline {
+        margin: 40px 0;
+    }
+
+    .timeline-item {
+        margin-bottom: 20px;
+    }
+
+    .timeline-item strong {
+        display: inline-block;
+        width: 120px;
+        color: #0077B6;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .testimonial {
+        flex: 1 1 300px;
+        background-color: #ADE8F4;
+        padding: 20px;
+        border-radius: 10px;
+        font-style: italic;
+    }
+
+    /* Anmeldeformular */
+    .form-section {
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .form-section input[type="text"],
+    .form-section input[type="email"] {
+        padding: 12px;
+        width: 250px;
+        margin: 10px;
+        border: 1px solid #0077B6;
+        border-radius: 5px;
+    }
+
+    .form-section input[type="submit"] {
+        padding: 15px 30px;
+        background-color: #FF6B35;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .form-section input[type="submit"]:hover {
+        background-color: #FF3F1F;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #023E8A;
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px){
+        .highlights, .testimonials {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 2em;
+        }
+    }
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<section class="hero">
+    <h1>Erlebe das ultimative Boßel-Abenteuer auf Amrum!</h1>
+    <p>Spaß, Teamgeist und Friesische Landschaft – sei dabei am <strong>15. Juni 2026</strong>!</p>
+    <a href="#anmeldung" class="cta-button">Jetzt anmelden</a>
+</section>
+
+<!-- Highlights -->
+<section class="container">
+    <h2>Warum du dabei sein solltest</h2>
+    <div class="highlights">
+        <div class="highlight">
+            <h3>Für alle Altersklassen</h3>
+            <p>Boßelspaß garantiert – egal ob jung oder alt!</p>
+        </div>
+        <div class="highlight">
+            <h3>Wettbewerbe & Preise</h3>
+            <p>Teamgeist zeigen und tolle Preise gewinnen!</p>
+        </div>
+        <div class="highlight">
+            <h3>Leckere Verpflegung</h3>
+            <p>Friesische Spezialitäten stärken dich für die Tour.</p>
+        </div>
+        <div class="highlight">
+            <h3>Wunderschöne Natur</h3>
+            <p>Boßeln am Strand und Dünen – einfach traumhaft!</p>
+        </div>
+    </div>
+</section>
+
+<!-- Ablauf -->
+<section class="container">
+    <h2>Ablauf des Events</h2>
+    <div class="timeline">
+        <div class="timeline-item"><strong>10:00 Uhr:</strong> Begrüßung & Teamaufteilung</div>
+        <div class="timeline-item"><strong>10:30 Uhr:</strong> Boßel-Tour entlang der Dünen</div>
+        <div class="timeline-item"><strong>13:00 Uhr:</strong> Mittagspause & regionale Spezialitäten</div>
+        <div class="timeline-item"><strong>14:00 Uhr:</strong> Wettkampf & Preisverleihung</div>
+        <div class="timeline-item"><strong>16:00 Uhr:</strong> Ausklang am Strand</div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="container">
+    <h2>Das sagen Teilnehmer</h2>
+    <div class="testimonials">
+        <div class="testimonial">„Tolles Event, super organisiert und mega Spaß!“ – Familie Müller</div>
+        <div class="testimonial">„Wir kommen jedes Jahr wieder – absolute Empfehlung!“ – Team Nordlicht</div>
+    </div>
+</section>
+
+<!-- Anmeldung -->
+<section class="form-section" id="anmeldung">
+    <h2>Jetzt deinen Platz sichern</h2>
+    <form>
+        <input type="text" name="name" placeholder="Dein Name" required>
+        <input type="email" name="email" placeholder="E-Mail" required><br>
+        <input type="submit" value="Anmelden">
+    </form>
+    <p>Begrenzte Teilnehmerzahl – sichere dir jetzt deinen Platz!</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>Kontakt: info@boßel-amrum.de | +49 123 456789</p>
+    <p>&copy; 2026 Boßel-Event Amrum | Datenschutz | Impressum</p>
+</footer>
+
+</body>
+</html>
